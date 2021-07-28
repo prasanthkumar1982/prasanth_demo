@@ -15,12 +15,13 @@
 	<description>Demo project for Spring Boot</description>
 	<properties>
 		<java.version>1.8</java.version>
+		<start-class>com.example.test.demo.DemoApplication</start-class>
 	</properties>
 	<profiles>
      		 <profile>
          		<id>openshift</id>
 			 <properties>
-           			 <spring.boot.mainclass>com.example.test.demo.DemoApplication</spring.boot.mainclass>
+           			<start-class>com.example.test.demo.DemoApplication</start-class>
         		  </properties>
        		 </profile>
    </profiles>
