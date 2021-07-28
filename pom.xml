@@ -48,7 +48,7 @@
 						<goal>repackage</goal>
 					    </goals>
 					    <configuration>
-						<mainClass>${spring.boot.mainclass}</mainClass>
+						<mainClass>com.example.test.demo.DemoApplication</mainClass>
 					    </configuration>
 					</execution>
 				    </executions>
